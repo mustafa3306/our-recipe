@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import Nav, { Logo, Menu, MenuLink, Hamburger } from './Navbar.style';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { useState } from 'react';
@@ -9,8 +8,8 @@ const Navbar = () => {
   return (
     <Nav justify="space-between" wrap="wrap">
       <Logo to="/">
-        <i>{'<Daily/>'}</i>
-        <span>Recipe</span>
+        <i>World of </i>
+        <span>Recipes</span>
       </Logo>
 
       <Hamburger onClick={() => setIsOpen(!isOpen)}>

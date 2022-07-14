@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Flex from "../globalstyles/Flex";
+import Flex from '../../components/globalStyles/Flex';
 import { Link } from 'react-router-dom';
 
 const Nav = styled(Flex)`

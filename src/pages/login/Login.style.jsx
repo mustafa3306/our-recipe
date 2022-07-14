@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Flex from '../../components/globalstyles/Flex';
+import Flex from '../../components/globalStyles/Flex';
 
 export const LoginContainer = styled(Flex)`
   height: 100vh;
