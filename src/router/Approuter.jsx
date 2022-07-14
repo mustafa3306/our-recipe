@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Navbar from '../components/nav/Navbar';
 import About from '../pages/about/About';
 import Detail from '../pages/details/Detail';
 import Home from '../pages/home/Home';
@@ -9,6 +10,7 @@ import Privaterouter from './Privaterouter';
 const Approuter = () => {
   return (
     <BrowserRouter>
+        <Navbar />
         <Routes>
             <Route path='/' element={<Home />}/>
             <Route path="about" element={<Privaterouter />} >
