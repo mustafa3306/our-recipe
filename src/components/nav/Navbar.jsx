@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <Nav justify="space-between" wrap="wrap">
       <Logo to="/">
-        <i>{'<Clarusway/>'}</i>
+        <i>{'<Daily/>'}</i>
         <span>Recipe</span>
       </Logo>
 
