@@ -5,7 +5,9 @@ import { ThemeProvider } from "styled-components";
 
 function App() {
   return (
-    <Approuter />
+    <ThemeProvider theme={theme}>
+      <Approuter />
+    </ThemeProvider>
   );
 }
 
